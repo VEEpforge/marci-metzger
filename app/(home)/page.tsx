@@ -6,6 +6,7 @@ const Page = () => {
     <main className="relative z-20">
       <Hero />
       <About />
+      <div className="h-screen"></div>
     </main>
   )
 }
