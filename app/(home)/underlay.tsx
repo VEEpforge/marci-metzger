@@ -27,9 +27,9 @@ const Underlay = () => {
               <Image
                 src={image}
                 alt='Description of image'
-                // layout='fill'
                 fill={true}
-                objectFit='cover'
+                // objectFit={'cover'}
+                style={{objectFit:'cover'}}
               />
               </div>
             </CarouselItem>
