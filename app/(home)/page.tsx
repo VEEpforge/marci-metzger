@@ -1,4 +1,5 @@
 import About from "@/components/sections/about"
+import HeadlinesSection from "@/components/sections/headlines"
 import Hero from "@/components/sections/hero"
 import LogoSection from "@/components/sections/logoSection"
 
@@ -6,6 +7,7 @@ const Page = () => {
   return (
     <main className="relative z-20">
       <Hero />
+      <HeadlinesSection />
       <About />
       <LogoSection />
       <div className="h-screen"></div>
