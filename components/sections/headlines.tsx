@@ -6,7 +6,7 @@ import { headlines, stats } from '@/assets/constants'
 
 const HeadlinesSection = () => {
   return (
-    <section className="max-w-screen h-auto flex flex-col items-center justify-center bg-background py-16 px-4">
+    <section className="max-w-screen h-auto flex flex-col items-center justify-center bg-background pt-16 px-4">
       <Carousel
         plugins={[
           Autoplay({
