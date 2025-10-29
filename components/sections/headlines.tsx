@@ -3,7 +3,6 @@
 import Autoplay from 'embla-carousel-autoplay'
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel'
 import { headlines, stats } from '@/assets/constants'
-import { Separator } from '../ui/separator'
 
 const HeadlinesSection = () => {
   return (
