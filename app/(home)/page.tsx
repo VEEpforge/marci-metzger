@@ -1,6 +1,6 @@
 import About from "@/components/sections/about"
 import Hero from "@/components/sections/hero"
-import LogoSection from "@/components/sections/logoCarousel"
+import LogoSection from "@/components/sections/logoSection"
 
 const Page = () => {
   return (
